@@ -1,4 +1,8 @@
+
 # 🗺️ Transit AI - Real-Time Telemetry & Congestion Grading Platform
+
+[![Live Demo](https://img.shields.io/badge/🚀_Live_Demo-Visit_Website-00C853?style=for-the-badge)](https://transit-ai-1mot.onrender.com/)
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github)](https://github.com/rameshshanmugam2005-hub/TRANSIT_AI)
 
 Transit AI is an advanced, enterprise-grade public transit visualization, real-time routing telemetry, and smart ticket validation platform designed to resolve urban commuting inefficiencies. Optimized for dense metropolitan hubs like Chennai, India, the application transforms volatile GPS telemetry and regional road link speeds into highly structured, actionable transit intelligence.
 
