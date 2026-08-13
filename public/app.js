@@ -61,15 +61,7 @@ let state = {
 // 3. PERSISTENCE FALLBACKS & PREFERENCES
 // ═══════════════════════════════════════════════
 
-function saveData() {
-  try {
-    localStorage.setItem('sb_theme', state.theme);
-    localStorage.setItem('sb_low_bandwidth', state.lowBandwidth ? 'true' : 'false');
-    if (state.currentUser) {
-      localStorage.setItem('sb_session', state.currentUser.id);
-    } else {
-      localStorage.removeItem('sb_session');
-    }
+
   } catch (e) {
     console.warn('Could not save theme/session:', e);
   }
