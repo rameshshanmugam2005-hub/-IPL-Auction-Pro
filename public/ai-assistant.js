@@ -1,4 +1,4 @@
-// Transit AI Assistant Client Module
+// EXPENSE TRACKER Assistant Client Module
 
 let aiChatOpen = false;
 let currentAIEngine = 'gemini';
