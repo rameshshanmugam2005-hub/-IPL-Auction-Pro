@@ -69,12 +69,14 @@ function sendAIMessage() {
     if (data.reply) {
       appendAIMessage(data.reply, 'bot');
     } else {
+      
       appendAIMessage('Sorry, I couldn\'t process that request.', 'bot');
     }
   })
   .catch(err => {
     console.error(err);
     removeAITyping(typingId);
+          platform: currentAIEngine
     appendAIMessage('Network error. Please try again.', 'bot');
   });
 }
