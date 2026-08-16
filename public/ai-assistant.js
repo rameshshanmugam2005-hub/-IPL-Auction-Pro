@@ -51,7 +51,6 @@ function sendAIMessage() {
   let context = '';
   if (window.state && window.state.busData) {
     context = window.state.busData.map(b => {
-      return `Route ${b.route} (${b.type}): Driver ${b.driver}, current stop ${b.nearStop}, ETA ${b.etaMin}m, Seats: ${b.filled}/${b.total} filled, ${b.free} free.`;
     }).join('\n');
   }
 
