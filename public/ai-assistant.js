@@ -16,7 +16,8 @@ function toggleAIChat() {
     if (input) input.focus();
   }
 }
-
+  if (input) input.focus();
+  }
 function syncAIEngines(value) {
   currentAIEngine = value;
   // Sync select dropdowns if they exist in multiple places
