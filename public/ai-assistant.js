@@ -3,9 +3,7 @@
 let aiChatOpen = false;
 let currentAIEngine = 'gemini';
 
-function toggleAIChat() {
-  const panel = document.getElementById('ai-panel');
-  if (!panel) return;
+
   
   aiChatOpen = !aiChatOpen;
   panel.style.display = aiChatOpen ? 'flex' : 'none';
