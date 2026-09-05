@@ -1,7 +1,4 @@
-/* ══════════════════════════════════════════════
-   Transit AI — app.js
-   Full-stack JavaScript Client calling Node.js Express APIs
-   ══════════════════════════════════════════════ */
+
 
 // ═══════════════════════════════════════════════
 // 1. APP DATA — constants that never change
