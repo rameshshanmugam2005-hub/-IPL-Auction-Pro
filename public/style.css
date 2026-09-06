@@ -94,7 +94,7 @@ input, select, button {
 }
 
 
-/* ── 3. UTILITY CLASSES ───────────────────────
+/* ── 3. UTILITY CLASSES
    Small reusable helpers */
 .blue-text  { color: var(--blue);  font-weight: 700; }
 .green-text { color: var(--green); font-weight: 700; }
