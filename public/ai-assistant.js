@@ -1,7 +1,4 @@
 
-
-
-  
   aiChatOpen = !aiChatOpen;
   panel.style.display = aiChatOpen ? 'flex' : 'none';
   
