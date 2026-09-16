@@ -28,7 +28,6 @@ function askAI(question) {
 function sendAIMessage() {
   const input = document.getElementById('ai-input');
   if (!input) return;
-  const question = input.value.trim();
   if (!question) return;
 
   // Clear input
