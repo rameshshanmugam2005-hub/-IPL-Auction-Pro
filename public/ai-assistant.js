@@ -5,7 +5,7 @@
   if (aiChatOpen) {
     // Focus input
     const input = document.getElementById('ai-input');
-    if (input) input.focus();
+  
   }
 }
   if (input) input.focus();
