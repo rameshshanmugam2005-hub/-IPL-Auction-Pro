@@ -191,7 +191,7 @@ function makeSeatMap(filledCount) {
 
 // Initialize live bus data
 let busData = FLEET.map(function (bus) {
-  const filled = Math.floor(Math.random() * 25) + 10;
+  const filled = Math.floor(Math.random() * 24) + 10;
   return {
     route:        bus.route,
     busId:        bus.busId,
