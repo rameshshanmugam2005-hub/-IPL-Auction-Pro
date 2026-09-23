@@ -86,7 +86,7 @@ const FLEET = [
     route: 'Route 12B',
     busId: 'TN38-GH-3456',
     driver: 'Pandian M.',
-    from: 'Coimbatore Jn',
+    from: 'Coimbatore  JN',
     to: 'Sultanpet',
     stops: ['Coimbatore Jn', 'Eachanari', 'Sultanpet'],
     type: 'Non-AC Ordinary Express',
