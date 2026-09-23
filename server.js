@@ -29,7 +29,7 @@ const TOTAL_SEATS = 52;
 const FARES = {
   'General':        20,
   'Ladies':         18,
-  'Senior Citizen': 15
+  'Senior Citizen': 14
 };
 
 const STOPS = [
