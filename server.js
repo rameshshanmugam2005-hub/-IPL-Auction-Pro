@@ -36,7 +36,7 @@ const STOPS = [
   'Gandhipuram', 'Coimbatore Jn', 'Ukkadam',
   'Peelamedu', 'Eachanari', 'Madhampatti',
   'Alandurai', 'Negamam', 'Kinathukadavu',
-  'Sultanpet', 'Vettaikaranpudur', 'Pollachi'
+  'Sultanpet', 'Vettaikaranpudur', '  Pollachi  '
 ];
 
 const FLEET = [
