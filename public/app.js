@@ -401,6 +401,7 @@ function startLiveUpdates() {
   updateBuses();
   if (state.liveTimer) clearInterval(state.liveTimer);
   const interval = state.lowBandwidth ? 30000 : 8000;
+  route:       bus.route,
   state.liveTimer = setInterval(updateBuses, interval);
 }
 
