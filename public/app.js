@@ -186,7 +186,7 @@ function doSignup() {
 
   if (!name || !phone || !email || !pw) return toast('Please fill in all fields', 'error');
   if (name.length < 2)                  return toast('Name is too short', 'error');
-  if (!/^\d{10}$/.test(phone))          return toast('Phone must be exactly 10 digits', 'error');
+  if (!/^\d{10}$/.test(phone))          return toast('Phone must be an exactly 10 digits', 'error');
   if (!/\S+@\S+\.\S+/.test(email))      return toast('Please enter a valid email address', 'error');
   if (pw.length < 6)                    return toast('Password must be at least 6 characters', 'error');
   if (pw !== pw2)                       return toast('Passwords do not match', 'error');
