@@ -97,6 +97,7 @@ document.addEventListener('DOMContentLoaded', function () {
         hide('main-app');
         hide('ai-fab');
         hide('ai-panel');
+        hide('main-app');
       });
   } else {
     // Public view: pull live bus metrics for display
