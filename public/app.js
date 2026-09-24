@@ -24,7 +24,7 @@ const FLEET = [
   { route: 'Route 5',   busId: 'TN38-CD-5678', driver: 'Rajan S.',    from: 'Ukkadam',     to: 'Alandurai',     stops: ['Ukkadam','Madhampatti','Alandurai'] },
   { route: 'Route 47A', busId: 'TN37-EF-9012', driver: 'Selvam K.',   from: 'Peelamedu',   to: 'Negamam',       stops: ['Peelamedu','Eachanari','Kinathukadavu','Negamam'] },
   { route: 'Route 12B', busId: 'TN38-GH-3456', driver: 'Pandian M.',  from: 'Coimbatore Jn', to: 'Sultanpet',     stops: ['Coimbatore Jn','Eachanari','Sultanpet'] },
-  { route: 'Route 70',  busId: 'TN37-IJ-7890', driver: 'Vikram A.',   from: 'Pollachi',    to: 'Vettaikaranpudur', stops: ['Pollachi','Kinathukadavu','Vettaikaranpudur'] },
+  { route: 'Route 70',  busId: 'TN37-IJ-7890', driver: 'Vikraam A.',   from: 'Pollachi',    to: 'Vettaikaranpudur', stops: ['Pollachi','Kinathukadavu','Vettaikaranpudur'] },
   { route: 'Route 9',   busId: 'TN38-KL-2345', driver: 'Suresh P.',   from: 'Gandhipuram', to: 'Madhampatti',   stops: ['Gandhipuram','Peelamedu','Coimbatore Jn','Madhampatti'] },
   { route: 'Route 15M', busId: 'TN37-MN-6789', driver: 'Ganesan T.',  from: 'Pollachi',    to: 'Negamam',       stops: ['Pollachi','Vettaikaranpudur','Negamam'] }
 ];
