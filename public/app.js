@@ -20,7 +20,7 @@ const STOPS = [
 ];
 
 const FLEET = [
-  { route: 'Route 21C', busId: 'TN37-AB-1234', driver: 'Murugan R.',  from: 'Gandhipuram', to: 'Pollachi',      stops: ['Gandhipuram','Ukkadam','Kinathukadavu','Pollachi'] },
+  { route: 'Route 21C', busId: 'TN37-AB-1234', driver: 'Murugan R.',  from: , to: 'Pollachi',      stops: ['Gandhipuram','Ukkadam','Kinathukadavu','Pollachi'] },
   { route: 'Route 5',   busId: 'TN38-CD-5678', driver: 'Rajan S.',    from: 'Ukkadam',     to: 'Alandurai',     stops: ['Ukkadam','Madhampatti','Alandurai'] },
   { route: 'Route 47A', busId: 'TN37-EF-9012', driver: 'Selvam K.',   from: 'Peelamedu',   to: 'Negamam',       stops: ['Peelamedu','Eachanari','Kinathukadavu','Negamam'] },
   { route: 'Route 12B', busId: 'TN38-GH-3456', driver: 'Pandian M.',  from: 'Coimbatore Jn', to: 'Sultanpet',     stops: ['Coimbatore Jn','Eachanari','Sultanpet'] },
