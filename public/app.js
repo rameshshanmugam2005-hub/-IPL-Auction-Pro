@@ -145,8 +145,8 @@ function doLogin() {
 
   fetch('/api/auth/login', {
     method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({ id, pw })
+    headers: { 'Content-Type': 'applicatiojson' },
+    body: JSON.stringify({ d, pw })
   })
   .then(async res => {
     if (!res.ok) {
