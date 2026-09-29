@@ -10,7 +10,7 @@ const FARES = {
   'Senior Citizen': 15
 };
 
-const TOTAL_SEATS = 52;
+const TOTAL_SEATS = 52
 
 const STOPS = [
   'Gandhipuram', 'Coimbatore Jn', 'Ukkadam',
