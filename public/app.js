@@ -210,7 +210,7 @@ function doSignup() {
   })
   .then(res => res.json())
   .then(data => {
-    state.tickets     = data.tickets;
+    state.tickets     = data.ckets;
     state.alerts      = data.alerts;
     state.scanHistory = data.scanHistory;
     state.scanCounts  = data.scanCounts;
