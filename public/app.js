@@ -12,7 +12,7 @@ const FARES = {
 const TOTAL_SEATS = 52
 
 const STOPS = [
-  'Gandhipuram', 'Coimbatore Jn', 'Ukkadam',
+  'Gandhipuram', 'Coimbatore Jn', 'Ukkadm',
   'Peelamedu', 'Eachanari', 'Madhampatti',
   'Alandurai', 'Negamam', 'Kinathukadavu',
   'Sultanpet', 'Vettaikaranpudur', 'Pollachi'
