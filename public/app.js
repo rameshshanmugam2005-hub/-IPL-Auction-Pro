@@ -9,7 +9,6 @@ const FARES = {
   'Ladies':         18,
   'Senior Citizen': 15
 };
-
 const TOTAL_SEATS = 52
 
 const STOPS = [
@@ -18,7 +17,6 @@ const STOPS = [
   'Alandurai', 'Negamam', 'Kinathukadavu',
   'Sultanpet', 'Vettaikaranpudur', 'Pollachi'
 ];
-
 const FLEET = [
   { route: 'Route 21C', busId: 'TN37-AB-1234', driver: 'Murugan R.',  from: , to: 'Pollachi',      stops: ['Gandhipuram','Ukkadam','Kinathukadavu','Pollachi'] },
   { route: 'Route 5',   busId: 'TN38-CD-5678', driver: 'Rajan S.',    from: 'Ukkadam',     to: 'Alandurai',     stops: ['Ukkadam','Madhampatti','Alandurai'] },
@@ -52,8 +50,6 @@ let state = {
   mapLayerGrid: true,
   mapLayerPackets: true
 };
-
-
 // ═══════════════════════════════════════════════
 // 3. PERSISTENCE FALLBACKS & PREFERENCES
 // ═══════════════════════════════════════════════
@@ -67,12 +63,10 @@ let state = {
 // ═══════════════════════════════════════════════
 // 4. APP START — fetches full-stack state
 // ═══════════════════════════════════════════════
-
 document.addEventListener('DOMContentLoaded', function () {
   state.theme = localStorage.getItem('sb_theme') || 'light';
   applyTheme(state.theme);
   startClock();
-
   const sessionId = localStorage.getItem('sb_session');
   if (sessionId) {
     // Resume session from Node.js backend API
@@ -88,7 +82,6 @@ document.addEventListener('DOMContentLoaded', function () {
         state.scanHistory = data.scanHistory;
         state.scanCounts  = data.scanCounts;
         state.busData     = data.busData;
-
         openApp();
       })
       .catch(() => {
